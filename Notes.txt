@@ -1,0 +1,20 @@
+Visi Data is vd for short when starting it from linux By J~Net 2022
+
+sudo chmod +x *.sh
+./setup.sh
+
+sudo apt install -y visidata wget git
+
+
+wget "https://randomuser.me/api/?results=2000&format=csv"
+
+vd people.csv
+
+
+Or
+
+git clone https://github.com/jamieduk/VisiData.git
+
+
+
+
